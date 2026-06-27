@@ -1,5 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
 }
 
 img {
@@ -23,4 +32,47 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 52px;
+}
+
+.barberry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  gap: 8px;
+}
+
+.chilli {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  gap: 8px;
+}
+
+.pepper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  gap: 8px;
+}
+
+.saffron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  gap: 8px;
 }
